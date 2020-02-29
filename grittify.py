@@ -48,3 +48,5 @@ if __name__ == '__main__':
         get_songs_by_date(True)
     elif argv[1] == 'songs' and argv[2] == "before":
         get_songs_by_date(False)
+    else:
+        raise ValueError("use is python3 grittify.py [command] [args]")
